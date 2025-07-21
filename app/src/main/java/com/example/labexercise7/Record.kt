@@ -6,5 +6,8 @@ import kotlinx.serialization.Serializable
 data class Record(
     val id: Int = 0,
     val name: String,
-    val email: String
+    val birthday: String,
+    val email: String,
+    val phone: String
 )
+

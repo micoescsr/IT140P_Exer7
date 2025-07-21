@@ -5,5 +5,7 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class AddRecordRequest(
     val name: String,
-    val email: String
+    val birthday: String,
+    val email: String,
+    val phone: String
 )
