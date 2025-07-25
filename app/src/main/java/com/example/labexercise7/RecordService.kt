@@ -11,7 +11,7 @@ import kotlinx.serialization.json.Json
 
 class RecordService {
 
-    private val baseUrl = "http://10.0.2.2/IT140P"
+    private val baseUrl = "http://10.0.2.2/IT140P" //10.0.2.2
     private val client = HttpClient {
         install(ContentNegotiation) {
             json(Json {
